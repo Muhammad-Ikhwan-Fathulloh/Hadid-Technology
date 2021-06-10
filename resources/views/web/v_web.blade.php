@@ -12,6 +12,7 @@
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 
     
 
@@ -65,6 +66,14 @@
       .bg-b {
         background: #464866;
       }
+
+      .orange {
+        color: #FF8C00;
+      }
+
+      .gold {
+        color: #FFD700;
+      }
     </style>
 
     
@@ -82,9 +91,9 @@
   <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-caption text-left">
-            <h1>HADID TECHNOLOGY</h1>
+            <h1><i><span class="orange">HADID</span> <span class="gold">TECHNOLOGY</span></i></h1>
             <p>Iron Technology for Good Change.</p>
-            <p><a class="btn btn-lg btn-success" href="">Build Your Project</a></p>
+            <p><a class="btn btn-lg btn-success" href=""><i class="bi bi-cpu"> Build Your Project</i></a></p>
           </div>
     <div class="carousel-item active">
       <img src="logo/techno.jpg" class="d-block w-100" alt="logo/techno.jpg">
@@ -170,8 +179,14 @@
   <section class="bg-ka">
   <footer class="text-white py-5">
     <div class="container">
+      <img src="">
+      <strong>Contact us : </strong>
+      <a href="https://www.tokopedia.com/hadidtechnology/"><i class="bi bi-shop text-white"> Tokopedia</i></a>
+      <a href="https://www.instagram.com/hadidtechnology/"><i class="bi bi-instagram text-white"> Instagram</i></a>
+      <a href="https://wa.me/6285861712279"><i class="bi bi-whatsapp text-white"> Whatsapp</i></a>
+      <hr>
       <p class="float-end mb-1">
-        <a href="#" class="text-white"><i class="fas fa-fw fa-arrow-circle-up"></i> Back to top</a>
+        <a href="#" class="text-white btn btn-info"><i class="fas fa-fw fa-arrow-circle-up"></i> Back to top</a>
       </p>
       <p class="mb-1">Copyright &copy; 2021 | Hadid Technology</p>
       <p class="mb-0">Iron Technology for Good Change</p>

@@ -22,6 +22,45 @@
   <!-- Custom styles for this template-->
   <link href="{{asset('template')}}/css/sb-admin-2.min.css" rel="stylesheet">
   @livewireStyles
+  <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .bg-ku {
+        background: linear-gradient(to right, #29648a, #25274d);
+      }
+
+      .bg-ka {
+        background: #29648a;
+      }
+
+      .bg-kuk {
+        background: #4682b4;
+      }
+
+      .bg-b {
+        background: #464866;
+      }
+
+      .orange {
+        color: #FF8C00;
+      }
+
+      .gold {
+        color: #FFD700;
+      }
+    </style>
 </head>
 
 <body id="page-top"> 
@@ -47,7 +86,7 @@
     <div id="content-wrapper" class="d-flex flex-column">
 
       <!-- Main Content -->
-      <div id="content" class="bg-gradient-dark">
+      <div id="content" class="bg-ku">
 
         <!-- Topbar -->
         <nav class="navbar navbar-expand navbar-light bg-dark topbar mb-4 static-top shadow">
@@ -56,7 +95,7 @@
           <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
             <i class="fa fa-bars"></i>
           </button>
-
+          <strong><i><span class="orange">HADID</span> <span class="gold">TECHNOLOGY</span></i></strong>
           <!-- Topbar Search -->
           <!-- <form class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
             <div class="input-group">

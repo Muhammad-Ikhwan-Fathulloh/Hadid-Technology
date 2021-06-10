@@ -54,7 +54,7 @@
       <li class="nav-item {{request()->is('produk')?'active':''}}">
         <a class="nav-link" href="/produk">
           <i class="fas fa-fw fa-list"></i>
-          <span>List</span></a>
+          <span>Produk</span></a>
       </li>
 
       <li class="nav-item {{request()->is('jasa')?'active':''}}">
@@ -99,7 +99,7 @@
       <li class="nav-item">
         <a class="nav-link" href="/">
           <i class="fas fa-fw fa-clipboard-list"></i>
-          <span>Produk</span></a>
+          <span>List</span></a>
       </li>
       <li class="nav-item {{request()->is('pesanan')?'active':''}}">
         <a class="nav-link" href="/pesanan">

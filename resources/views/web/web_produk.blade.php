@@ -5,7 +5,7 @@
 
 @section('content1')
 <br>
-<h4 class="text-white"><i class="fas fa-fw fa-tasks"></i> Komponen</h4>
+<h4 class="text-white"><i class="fas fa-fw fa-tasks"></i> Komponen dan Produk</h4>
 <hr>
 <div class="row row-cols-1 row-cols-md-3 g-4">
 @foreach ($produk as $datas)
@@ -51,7 +51,7 @@
 
 @section('content2')
 <br>
-<h4 class="text-white"><i class="fas fa-fw fa-tasks"></i> Pelatihan Hadid Technology</h4>
+<h4 class="text-white"><i class="fas fa-fw fa-tasks"></i> Jasa Hadid Technology</h4>
 <hr>
 <div class="row row-cols-1 row-cols-md-2">
   @foreach ($jasa as $datas)
@@ -71,7 +71,7 @@
         <p class="card-text text-white">{{ $datas->keterangan_jasa }}</p>
         <hr>
         <tr>
-          <a href="https://wa.me/6285861712279" class="btn btn-success">Hubungi Kami <i class="fas fa-fw fa-phone"></i></a>
+          <a href="https://wa.me/6285861712279" class="btn btn-success"><i class="bi bi-whatsapp text-white"> Hubungi Kami</i></a>
         </tr>
       </div>
     </div>

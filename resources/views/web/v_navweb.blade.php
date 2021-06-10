@@ -2,7 +2,7 @@
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-gradient-dark">
     <div class="container-fluid">
       <img src="{{ url('logo/hadid.png') }}" width="80px">
-      <a class="navbar-brand" href="#">Hadid Technology</a>
+      <a class="navbar-brand" href="#"><strong><i><span class="orange">HADID</span> <span class="gold">TECHNOLOGY</span></i></strong></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -10,7 +10,15 @@
         <ul class="navbar-nav me-auto mb-2 mb-md-0">
 
           <li class="nav-item">
-            <a class="nav-link" href="/home">Home</a>
+            <a class="nav-link" href="/home"><i class="bi bi-house-fill"> Home</i></a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/about"><i class="bi bi-info-circle-fill"> About</i></a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/contact"><i <i class="bi bi-telephone-fill"> Contact</i></a>
           </li>
 
           <!-- <li class="nav-item">
