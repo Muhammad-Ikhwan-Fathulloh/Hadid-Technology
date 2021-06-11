@@ -85,7 +85,7 @@ class Produkcontroller extends Controller
         ];
 
         $this->Produkmodel->addData($data);
-
+        alert()->success('Tambah Produk !!!', 'Berhasil');
         return redirect()->route('produk')->with('pesan','Data Berhasil Di Tambahkan !!!');
     }
 
@@ -144,7 +144,7 @@ class Produkcontroller extends Controller
 
             $this->Produkmodel->editData($id_produk, $data);
         }
-
+        alert()->success('Ubah Produk !!!', 'Berhasil');
         return redirect()->route('produk')->with('pesan','Data Berhasil Di Ubah !!!');
     }
 
@@ -154,6 +154,7 @@ class Produkcontroller extends Controller
             unlink(public_path('g_produk').'/'.$produk->gambar_produk);
         }
         $this->Produkmodel->deleteData($id_produk);
+        alert()->success('Hapus Produk !!!', 'Berhasil');
         return redirect()->route('produk')->with('pesan','Data Berhasil Di Hapus !!!');
     }
 }

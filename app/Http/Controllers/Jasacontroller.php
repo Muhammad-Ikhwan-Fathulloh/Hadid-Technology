@@ -75,7 +75,7 @@ class Jasacontroller extends Controller
         ];
 
         $this->Jasamodel->addData($data);
-
+        alert()->success('Tambah Jasa !!!', 'Berhasil');
         return redirect()->route('jasa')->with('pesan','Data Berhasil Di Tambahkan !!!');
     }
 
@@ -134,7 +134,7 @@ class Jasacontroller extends Controller
 
             $this->Jasamodel->editData($id_jasa, $data);
         }
-
+        alert()->success('Ubah Jasa !!!', 'Berhasil');
         return redirect()->route('jasa')->with('pesan','Data Berhasil Di Ubah !!!');
     }
 
@@ -144,6 +144,7 @@ class Jasacontroller extends Controller
             unlink(public_path('g_jasa').'/'.$jasa->gambar_jasa);
         }
         $this->Jasamodel->deleteData($id_jasa);
+        alert()->success('Hapus Jasa !!!', 'Berhasil');
         return redirect()->route('jasa')->with('pesan','Data Berhasil Di Hapus !!!');
     }
 }

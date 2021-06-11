@@ -84,7 +84,7 @@ class Artikelcontroller extends Controller
         ];
 
         $this->Artikelmodel->addData($data);
-
+        alert()->success('Tambah Artikel !!!', 'Berhasil');
         return redirect()->route('artikel')->with('pesan','Data Berhasil Di Tambahkan !!!');
     }
 
@@ -144,7 +144,7 @@ class Artikelcontroller extends Controller
 
             $this->Artikelmodel->editData($id_artikel, $data);
         }
-
+        alert()->success('Ubah Artikel !!!', 'Berhasil');
         return redirect()->route('artikel')->with('pesan','Data Berhasil Di Ubah !!!');
     }
 
@@ -154,6 +154,7 @@ class Artikelcontroller extends Controller
             unlink(public_path('g_artikel').'/'.$artikel->gambar_artikel);
         }
         $this->Artikelmodel->deleteData($id_artikel);
+        alert()->success('Hapus Artikel !!!', 'Berhasil');
         return redirect()->route('artikel')->with('pesan','Data Berhasil Di Hapus !!!');
     }
 }
