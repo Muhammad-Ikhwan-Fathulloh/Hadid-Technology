@@ -1,4 +1,12 @@
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
+<h1 align="center">Hadid Technology</h1>
+<h3 align="center">Proyek UAS</h3>
+<p align="left"><strong>STIKOM BALI</strong></p>
+<p align="left"><strong>Mata Kuliah Pemograman Web</strong></p>
+<p align="left"><strong>Dosen :</strong></p>
+<p align="left">I Putu Gede Abdi Sudiatmika, S.Pd., M.Kom.</p>
+<p align="left"><strong>Nama Kelompok :</strong></p>
+<p align="left">1. Muhammad Firman Hermawan (19552011051)</p>
+<p align="left">2. Muhammad Ikhwan Fathulloh (19552011024)</p>
 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
