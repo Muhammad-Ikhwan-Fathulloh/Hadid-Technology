@@ -14,11 +14,11 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="/about"><i class="bi bi-info-circle-fill"> About</i></a>
+            <a class="nav-link" href="#about"><i class="bi bi-info-circle-fill"> About</i></a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="/contact"><i <i class="bi bi-telephone-fill"> Contact</i></a>
+            <a class="nav-link" href="#contact"><i <i class="bi bi-telephone-fill"> Contact</i></a>
           </li>
 
           <!-- <li class="nav-item">

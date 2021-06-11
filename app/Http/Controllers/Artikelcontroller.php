@@ -55,7 +55,7 @@ class Artikelcontroller extends Controller
         Request()->validate([
             'id_artikel' => 'required',
             'judul_artikel' => 'required',
-            'gambar_artikel' => 'required|mimes:jpg,jpeg,bmp,png|max:1024',
+            'gambar_artikel' => '|mimes:jpg,jpeg,bmp,png|max:1024',
             'kategori_artikel' => 'required',
             'keterangan_artikel' => 'required',
             'penulis_artikel' => 'required',
@@ -63,7 +63,6 @@ class Artikelcontroller extends Controller
         ], [
             'id_artikel.required' => 'Wajib diisi !!',
             'judul_artikel.required' => 'Wajib diisi !!',
-            'gambar_artikel.required' => 'Wajib diisi !!',
             'kategori_artikel.required' => 'Wajib diisi !!',
             'keterangan_artikel.required' => 'Wajib diisi !!',
             'penulis_artikel.required' => 'Wajib diisi !!',
@@ -137,7 +136,6 @@ class Artikelcontroller extends Controller
             $data = [
                 'id_artikel' => Request()->id_artikel,
                 'judul_artikel' => Request()->judul_artikel,
-                'gambar_artikel' => $fileName,
                 'kategori_artikel' => Request()->kategori_artikel,
                 'keterangan_artikel' => Request()->keterangan_artikel,
                 'penulis_artikel' => Request()->penulis_artikel,

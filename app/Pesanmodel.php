@@ -4,6 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\DB;
+use Auth;
 
 class Pesanmodel extends Model
 {
@@ -40,6 +41,15 @@ class Pesanmodel extends Model
     public function sudahkonfirmasi(){
         return DB::table('pesan')->where('status',1)->where('konfirmasi',1)->count();
     }
+
+    public function belumkonfirmasiuser(){
+        return DB::table('pesan')->where('id_user', Auth::user()->id)->where('status',1)->where('konfirmasi',0)->count();
+    }
+
+    public function sudahkonfirmasiuser(){
+        return DB::table('pesan')->where('id_user', Auth::user()->id)->where('status',1)->where('konfirmasi',1)->count();
+    }
+
 
     public function Search($cari){
         return DB::table('pesan')

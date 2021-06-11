@@ -36,13 +36,15 @@
 					</td>
 				</tr>
 			@endforeach
+			@if((!empty($datas)))
 			<tr>
 				<td colspan="4"></td>
 				<td>Rp. {{number_format($totalpesan->jumlah_harga)}},-</td>
 				<td>
 					<a href="/konfirmasi/transaksi/{{ $datas->id_produk }}" class="btn btn-success"><i class="fas fa-fw fa-shopping-cart"></i> Check Out</a>
 				</td>
-			</tr>	
+			</tr>
+			@endif
 		</tbody>
 	</table>
 @else

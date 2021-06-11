@@ -93,7 +93,7 @@ class Jasacontroller extends Controller
         Request()->validate([
             'id_jasa' => 'required',
             'materi_jasa' => 'required',
-            'gambar_jasa' => 'required|mimes:jpg,jpeg,bmp,png|max:1024',
+            'gambar_jasa' => '|mimes:jpg,jpeg,bmp,png|max:1024',
             'keterangan_jasa' => 'required',
             'kategori_jasa' => 'required',
             'harga_jasa' => 'required',
@@ -101,7 +101,6 @@ class Jasacontroller extends Controller
         ], [
             'id_jasa.required' => 'Wajib diisi !!',
             'materi_jasa.required' => 'Wajib diisi !!',
-            'gambar_jasa.required' => 'Wajib diisi !!',
             'keterangan_jasa.required' => 'Wajib diisi !!',
             'kategori_jasa.required' => 'Wajib diisi !!',
             'harga_jasa.required' => 'Wajib diisi !!',
@@ -127,7 +126,6 @@ class Jasacontroller extends Controller
             $data = [
                 'id_jasa' => Request()->id_jasa,
                 'materi_jasa' => Request()->materi_jasa,
-                'gambar_jasa' => $fileName,
                 'keterangan_jasa' => Request()->keterangan_jasa,
                 'kategori_jasa' => Request()->kategori_jasa,
                 'harga_jasa' => Request()->harga_jasa,

@@ -103,7 +103,7 @@ class Produkcontroller extends Controller
         Request()->validate([
             'id_produk' => 'required',
             'nama_produk' => 'required',
-            'gambar_produk' => 'required|mimes:jpg,jpeg,bmp,png|max:1024',
+            'gambar_produk' => '|mimes:jpg,jpeg,bmp,png|max:1024',
             'hargabeli_produk' => 'required',
             'hargajual_produk' => 'required',
             'stok_produk' => 'required',
@@ -111,7 +111,6 @@ class Produkcontroller extends Controller
         ], [
             'id_produk.required' => 'Wajib diisi !!',
             'nama_produk.required' => 'Wajib diisi !!',
-            'gambar_produk.required' => 'Wajib diisi !!',
             'hargabeli_produk.required' => 'Wajib diisi !!',
             'hargajual_produk.required' => 'Wajib diisi !!',
             'stok_produk.required' => 'Wajib diisi !!',
@@ -137,7 +136,6 @@ class Produkcontroller extends Controller
             $data = [
                 'id_produk' => Request()->id_produk,
                 'nama_produk' => Request()->nama_produk,
-                'gambar_produk' => $fileName,
                 'hargabeli_produk' => Request()->hargabeli_produk,
                 'hargajual_produk' => Request()->hargajual_produk,
                 'stok_produk' => Request()->stok_produk,

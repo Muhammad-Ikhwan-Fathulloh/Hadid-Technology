@@ -111,13 +111,13 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
-
+<section id="about">
 
   <!-- Marketing messaging and featurettes
   ================================================== -->
   <!-- Wrap the rest of the page in another container to center all the content. -->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#104e8b" fill-opacity="1" d="M0,96L240,64L480,224L720,160L960,32L1200,96L1440,192L1440,0L1200,0L960,0L720,0L480,0L240,0L0,0Z"></path></svg>
-  <section>
+  
     <div class="container">
   <div class="row">
     <div class="col-sm-5 col-md-6 text-center">
@@ -176,10 +176,10 @@
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#29648a" fill-opacity="1" d="M0,96L288,64L576,160L864,160L1152,128L1440,64L1440,320L1152,320L864,320L576,320L288,320L0,320Z"></path></svg>
   <!-- FOOTER -->
 <section class="bg-ka">
-  <section class="bg-ka">
+  <section class="bg-ka" id="contact">
   <footer class="text-white py-5">
     <div class="container">
-      <img src="">
+      
       <strong>Contact us : </strong>
       <a href="https://www.tokopedia.com/hadidtechnology/"><i class="bi bi-shop text-white"> Tokopedia</i></a>
       <a href="https://www.instagram.com/hadidtechnology/"><i class="bi bi-instagram text-white"> Instagram</i></a>
