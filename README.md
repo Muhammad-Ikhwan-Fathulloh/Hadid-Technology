@@ -8,6 +8,10 @@
 <p align="left">1. Muhammad Firman Hermawan (19552011051)</p>
 <p align="left">2. Muhammad Ikhwan Fathulloh (19552011024)</p>
 
+<p align="left"><strong>Pengembangan</strong></p>
+<p align="left">Proyek ini dari perkembangan sebelumnya dan akan terus diperbaiki kembali yang sudah dihosting gratis dengan Firebase.</p>
+<a href="https://hadid-technology.web.app/"><p align="left"><strong>Klik Disini</strong></p></a>
+
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
