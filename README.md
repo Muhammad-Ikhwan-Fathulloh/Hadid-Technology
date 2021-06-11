@@ -9,7 +9,7 @@
 <p align="left">2. Muhammad Ikhwan Fathulloh (19552011024)</p>
 
 <p align="left"><strong>Pengembangan</strong></p>
-<p align="left">Proyek ini dari perkembangan sebelumnya dan akan terus diperbaiki kembali yang sudah dihosting gratis dengan Firebase.</p>
+<p align="left">Proyek ini dari perkembangan sebelumnya yang sudah dihosting gratis dengan Firebase dan akan terus diperbaiki kembali.</p>
 <a href="https://hadid-technology.web.app/"><p align="left"><strong>Klik Disini</strong></p></a>
 
 <p align="center">
